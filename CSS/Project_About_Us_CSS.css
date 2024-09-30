@@ -1,0 +1,228 @@
+*{
+    padding: 0%;
+    margin: 0%;
+ }
+
+/* body{
+    background-image: url('guarjian_about_us.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+#back{
+    background-image: url('../Assets/guarjian_about_us.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(35%);
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+}
+
+.navbar{
+    position: sticky;
+    top: 0%;
+    width: 100%;
+    height: 82px;
+    background-color: #AE1F1F;
+    display: flex;
+    justify-content:space-between;
+}
+
+.navbar img{
+    width: 59px;
+    height: 62px;
+    margin-left: 35px;
+}
+
+.navbar .title{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    color: white;
+    font-size: 25px;
+}
+
+.navbar .button{
+    margin-right: 32px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 20px;
+    font-size: 25px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a:hover{
+    font-weight: bold;
+    padding-bottom: 10px;
+    transform: scale(1.1);
+    transition: 0.15s;
+}
+
+.navbar .button #about{
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.tes{
+    width: 100%;
+    color: white;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.image{
+    position: absolute;
+    display: flex;
+    /* width: 500px; */
+    height: 300px;
+}
+
+.image1{
+    margin-top: 140px;
+    margin-left: 180px;
+    height: 348px;
+    width: 550px;
+}
+
+.image2{
+    margin-top: 500px;
+    margin-left: 900px;
+    height: 300px;
+    width: 600px;
+}
+
+.about{
+    position: absolute;
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    color: white;
+    width: 663px;
+    height: 289px;
+    text-align: center;
+    align-items: center;
+    /* background-color: black; */
+}
+
+#about1{
+    margin-top: 150px;
+    margin-left: 850px;
+}
+
+#about2{
+    margin-top: 500px;
+    margin-left: 120px;
+}
+
+.footer{
+    margin-top: 850px;
+    color: white;
+    width: 100%;
+    align-items: end;
+    background-color: black;
+    padding-top: 30px;
+    position: absolute;
+}
+
+.descb{
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    margin-left: 720px;
+}
+
+.footer img{
+    width: 50px;
+    /* filter: brightness(0); */
+}
+
+.footer img:hover{
+    opacity: 0.5;
+    transition: 0.15s;
+    cursor: pointer;
+}
+
+#insta{
+    margin-bottom: -55px;
+    margin-left: 1488px;
+}
+
+#fb{
+    margin-left: 1550px;
+    margin-right: 6px;
+}
+
+@media screen and (max-width: 768px){
+    *{
+        padding: 0%;
+        margin: 0%;
+     }
+    
+    .navbar{
+        top: 0%;
+        width: 100%;
+        height: auto;
+        background-color: #AE1F1F;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align: center;
+    }
+    
+    .navbar img{
+        width: 59px;
+        height: 62px;
+        margin-left: 35px;
+    }
+    
+    .navbar .title{
+        display: inline-block;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        gap: 13px;
+        color: white;
+        font-size: 25px;
+    }
+    
+    .navbar .button{
+        margin-right: 32px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        gap: 20px;
+        text-align: center;
+        font-size: 25px;
+        flex-wrap: wrap;
+        overflow-wrap: break-word;
+        overflow-x: hidden;
+    }
+    
+    .navbar a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .navbar a:hover{
+        font-weight: bold;
+        padding-bottom: 10px;
+        transform: scale(1.1);
+        transition: 0.15s;
+    }
+}
